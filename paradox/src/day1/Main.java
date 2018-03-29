@@ -12,7 +12,10 @@ public class Main {
 		//기능들을 멤버 메소드로 구현하여 main 메소드에서 테스트 해보시오.
 		circle c1= new  circle();
 		c1.printCircle();
-		
+		c1.moveCenter(10, 10);
+		c1.printCircle();
+		c1.resize(10.1);
+		c1.printCircle();
 	}
 
 }

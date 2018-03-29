@@ -33,6 +33,7 @@ public class circle {
 		this.setCenter(0,0);
 		this.setRadius(5.0);
 		
+		
 	}
 	public circle(int x, int y, double r) {
 		this.setCenter(x, y);
@@ -54,9 +55,14 @@ public class circle {
 		
 		
 	}
-	
-	
-
+	public void moveCenter(int x, int y) {
+		this.setCenter(x, y);
+		
 	}
+	public void resize(double r) {
+		this.setRadius(r);
+	}
+
+}
 
 
